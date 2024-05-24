@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={textVariant()}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -63,7 +63,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
