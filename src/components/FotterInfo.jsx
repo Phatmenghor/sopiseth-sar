@@ -53,7 +53,7 @@ const FotterInfo = () => {
     //   </div>
     // </footer>
     <footer>
-      <div className="bg-white h-[1px] mb-4"></div>
+      <div className="bg-[#915EFF] h-[1px] mb-4"></div>
       <div className="flex justify-center ">
         <h3 className="text-md font-semibold mb-4 text-[#915EFF]">
           Copyright © 2024 Sopiseth Sar ®
