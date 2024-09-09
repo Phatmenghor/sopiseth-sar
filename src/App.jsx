@@ -4,13 +4,11 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
   StarsCanvas,
-  Video,
 } from "./components";
 import FotterInfo from "./components/FotterInfo";
 import ContactToMe from "./components/ContactToMe";
@@ -27,9 +25,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        {/* <Video /> */}
-        {/* <Feedbacks /> */}
-
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
