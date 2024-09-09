@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -44,22 +44,25 @@ import SPS from "./experience/SPS.png";
 import tonlesap from "./experience/tonlesap.png";
 import delico from "./experience/delico.png";
 
-import delicioWeb from "./project/delicioWeb.png";
-import sellerMobile from "./project/sellerMobile.png";
-import siaWeb from "./project/siaWeb.png";
-import svengrokWeb from "./project/svengrokWeb.png";
-import tonlesapMobile from "./project/tonlesapMobile.png";
-import tonlesapWeb from "./project/tonlesapWeb.png";
 import uiUx from "./project/uiUx.png";
 
+import tonlesapApp from "./project/tonlesapApp.png";
+import tonlesapWeb from "./project/tonlesapWeb.png";
+import sellerApp from "./project/sellerApp.png";
+import cbcWeb from "./project/cbcWeb.png";
+import svengRok from "./project/svengRok.png";
+import plantWeb from "./project/plantWeb.png";
+import delicioApp from "./project/delicioApp.png";
+
 export {
-  delicioWeb,
-  sellerMobile,
-  siaWeb,
+  delicioApp,
+  plantWeb,
+  svengRok,
+  cbcWeb,
+  sellerApp,
+  tonlesapApp,
   uiUx,
-  svengrokWeb,
   tonlesapWeb,
-  tonlesapMobile,
   link,
   future,
   SPS,

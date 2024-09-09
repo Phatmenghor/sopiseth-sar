@@ -9,7 +9,7 @@ import { slideIn } from "../utils/motion";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: "",
+    name: "New Contact",
     email: "",
     message: "",
   });
@@ -38,7 +38,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Mr. Sopiseth Sar",
           from_email: form.email,
-          to_email: "sopisethsarsar168@gmail.com",
+          to_email: "",
           message: form.message,
         },
         "tJScpCgZc6-dvQRLC"
@@ -49,7 +49,7 @@ const Contact = () => {
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
-            name: "",
+            name: "New Contact",
             email: "",
             message: "",
           });
@@ -76,9 +76,9 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-4 flex flex-col gap-8"
         >
-          <label className="flex flex-col">
+          {/* <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
@@ -88,7 +88,7 @@ const Contact = () => {
               placeholder="What's your good name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
-          </label>
+          </label> */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
