@@ -54,7 +54,12 @@ import svengRok from "./project/svengRok.png";
 import plantWeb from "./project/plantWeb.png";
 import delicioApp from "./project/delicioApp.png";
 
+import tiffanyDashboard from "./project/tiffanyDashboard.png";
+import tiffanyMobileApp from "./project/tiffanyMobileApp.png";
+
 export {
+  tiffanyDashboard,
+  tiffanyMobileApp,
   delicioApp,
   plantWeb,
   svengRok,

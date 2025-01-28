@@ -1,7 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import video1 from "../assets/video/video1.mp4";
-import video2 from "../assets/video/video2.mp4";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 

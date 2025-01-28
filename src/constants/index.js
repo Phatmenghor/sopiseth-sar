@@ -21,6 +21,8 @@ import {
   plantWeb,
   delicioApp,
   tonlesapApp,
+  tiffanyDashboard,
+  tiffanyMobileApp,
 } from "../assets";
 
 export const navLinks = [
@@ -288,6 +290,48 @@ const projects = [
       },
     ],
     image: plantWeb,
+    source_code_link: "",
+  },
+  {
+    name: "8. Tiffany - Mobile App",
+    description: [
+      "Conducted user research and flow.",
+      "Designed UI and prototypes.",
+      "Managed and worked closely with clients and developers.",
+      "Managed design and document hand-offs.",
+    ],
+    tags: [
+      {
+        name: "in-development",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "freelance",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tiffanyMobileApp,
+    source_code_link: "",
+  },
+  {
+    name: "9. Tiffany - Admin Dashboard",
+    description: [
+      "Conducted user research and flow.",
+      "Designed UI and prototypes.",
+      "Managed and worked closely with clients and developers.",
+      "Managed design and document hand-offs.",
+    ],
+    tags: [
+      {
+        name: "in-development",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "freelance",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tiffanyDashboard,
     source_code_link: "",
   },
 ];
