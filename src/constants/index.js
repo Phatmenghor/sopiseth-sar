@@ -364,22 +364,22 @@ export const contactData = [
   {
     title: "Telegram",
     icon: mobile,
-    href: "www.pornhub.com",
+    href: "https://t.me/sopisethsar",
   },
   {
     title: "LinkedIn",
     icon: web,
-    href: "www.pornhub.com",
+    href: "https://www.linkedin.com/in/sar-sopiseth-529435210/",
   },
   {
     title: "Behance",
     icon: creator,
-    href: "www.pornhub.com",
+    href: "https://www.behance.net/sopiseth",
   },
   {
     title: "Figma",
     icon: backend,
-    href: "www.pornhub.com",
+    href: "https://www.figma.com/@spscreative",
   },
 ];
 
